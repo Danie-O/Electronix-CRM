@@ -12,8 +12,8 @@ body {
 }
 
 .logo {
-    width: 60px; 
-    height: 60px; 
+    width: 65px; 
+    height: 65px; 
     float: left; 
     margin-left: 50px; 
     margin-right: 20px
@@ -66,9 +66,11 @@ body {
 
 footer div {
     background-color: white;
-    height: 15 px;
+    height: 45px;
+    width: 100%;
+    
 }
-
+ 
 footer p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     font-size: medium;

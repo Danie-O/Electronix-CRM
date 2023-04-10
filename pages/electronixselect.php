@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,8 +39,7 @@
 
             <div class="icon-bar">
                 <a class="active" href="./electronixloginpage.php">Home</a> 
-                <!--<a href="./electronixselect.php"><i class="fa fa-bookmark"></i></a>-->
-                <a href="./electronixregisterpage.php">Register</i></a> 
+                <a href="./">About Us</a>
                 <a href="./Contact Us.html"><i class="fa fa-address-card"></i></a>
             </div>
 
