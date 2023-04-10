@@ -6,6 +6,78 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+    margin:0;
+    background-color: #E0FFFF;
+}
+
+.logo {
+    width: 60px; 
+    height: 60px; 
+    float: left; 
+    margin-left: 50px; 
+    margin-right: 20px
+}
+
+.header { 
+    height: 80px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.heading {
+    color: blue; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+.sub-heading {
+    color: green;
+    margin-top: 0;
+}
+
+.icon-bar {
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3274d6;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 5px 0;transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: green;
+}
+
+p.success,
+p.error {
+            
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+p.error {
+    background: orangered;
+}
+
 .login {
     width: 400px;
     background-color: #ffffff;
