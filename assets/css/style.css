@@ -64,6 +64,17 @@ body {
     background-color: green;
 }
 
+footer div {
+    background-color: white;
+    height: 15 px;
+}
+
+footer p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: medium;
+    color: red;
+}
+
 p.success,
 p.error {
             

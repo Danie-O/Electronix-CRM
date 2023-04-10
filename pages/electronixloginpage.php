@@ -1,4 +1,5 @@
 <?php include('../includes/server.php') ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -47,8 +48,8 @@
             
 
         <footer>
-            <div style="background-color: white;height: 15 px;">
-                <marquee><p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: medium;color: #2868c7;">ELECTRONIX 2021</p></marquee>
+            <div>
+                <marquee><p>ELECTRONIX 2021</p></marquee>
             </div>
         </footer> 
         
