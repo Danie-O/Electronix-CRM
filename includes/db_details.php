@@ -1,11 +1,19 @@
 <?php
-    //CREATING A CONNECTION STRING IN PHP   
-    $dbname = "electronix";
-    $connection = new mysqli("localhost", "root", "", $dbname);
+    // Include config file
+    require_once 'config.php';
+
+    //CREATING A CONNECTION STRING IN PHP 
+    $servername = DB_HOSTNAME;
+    $username = DB_USERNAME;
+    $password = DB_PASSWORD;
+    $dbname = DB_NAME;
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
     // Check connection
-    if ($connection->connect_error) {
-    die("Connection failed: " . $connection->connect_error);
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
     }
     
     echo "<p>";
