@@ -3,7 +3,7 @@
     require_once 'config.php';
 
     //CREATING A CONNECTION STRING IN PHP 
-    $servername = DB_HOSTNAME;
+    $servername = DB_SERVERNAME;
     $username = DB_USERNAME;
     $password = DB_PASSWORD;
     $dbname = DB_NAME;

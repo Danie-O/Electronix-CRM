@@ -1,4 +1,3 @@
-
 /**
  * Highlights all table rows when the user
  * selects the "select all" checkbox.
@@ -11,6 +10,7 @@ function highlightAllTableRows() {
         }
     }
 }
+
 function removeTableRowsHighlight() {
     let row = document.getElementsByClassName("table-row");
     for (let i = 0; i < row.length; i++) {
@@ -19,6 +19,7 @@ function removeTableRowsHighlight() {
         }
     }
 }
+
 function highlightTableRow() {
     let table_row = document.getElementsByClassName("table-row");
     for (let i = 0; i < table_row.length; i++) {
@@ -32,6 +33,7 @@ function highlightTableRow() {
         }
     }
 }
+
 function removeTableRowHighlight() {
     let table_row = document.getElementsByClassName("table-row");
     for (let i = 0; i < table_row.length; i++) {
@@ -48,6 +50,7 @@ function removeTableRowHighlight() {
         }
     }
 }
+
 if (document.getElementById("multiple_deletion")) {
     let checked = 0;
 
