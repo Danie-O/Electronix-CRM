@@ -1,6 +1,6 @@
 # Electronix-CRM
 This repository contains a web application for a customer relationship management system for the Electronix company- a hypothetical electrical engineering firm, to enable field engineers view and manage customer complaints with regards to faulty products or installation problems. 
-The application was built using PHP, HTML, CSS, Bootstrap for the frontend, PHP for the backend, MySQL for the database, and Apache XAMPP as the server. The application features a login and registration system, and pages for viewing and managing different types of products.
+The application was built using PHP, HTML, CSS, Bootstrap for the frontend, PHP for the backend, MySQL for database management, and Apache XAMPP web server. The application features a login and registration system, and pages for viewing and managing different states of customer complaints.
 
 ## Getting Started
 
